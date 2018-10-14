@@ -65,6 +65,8 @@ output = numpy.column_stack( ( x[:,0], y) )
 df_results = pandas.DataFrame(output.astype('int'),columns=['PassengerID','Survived'])
 df_results.to_csv(r'C:\Users\pc\Desktop\titanic_results.csv',index=False)
 
+print( " hello world \n") 
+
 
 
 
